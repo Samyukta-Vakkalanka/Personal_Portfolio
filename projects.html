@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content ="Resume, Projects Page, Personal Projects, Data Science, Samyu Vakkalanka, Samyukta Vakkalanka">
+	<meta name = "description" content = "Samyu Vakkalanka projects gallery showing data science, hard science, and math projects including final products.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Samyukta Vakkalanka | Projects</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="animatedModal.js-master/css/animate.min.css">
+	
+	<link rel="stylesheet" href="style.css">
+	<style>
+		#upperrow{	
+			height: 450px;
+			overflow: hidden;
+		}
+		#upperrow img{
+			width: 100%;
+			height: 560px;
+		}
+
+		h2{
+			text-align: center;
+			margin-top: 0px;
+		}
+		a{
+			text-decoration: none;
+		}
+		#content1{
+			width: 1020px;
+			background-color: white;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 20px 10px;
+		}
+		.thumbnail{
+			background-color: white;
+			overflow: hidden;
+			width: 200px;
+			height: 200px;
+			margin: 20px;
+		}
+		.rows{
+			display: flex;
+		}
+		.square{
+			width: 440px;
+			height: 440px;
+			background-color: black;
+		}
+		.horizontal{
+			width: 440px;
+			height: 200px;
+		}
+		#bargraph{
+			width: 400px;
+			height: 200px;
+		}
+		.vertical{
+			width: 200px;
+			height: 350px;
+		}
+		.caption{
+			color: #000000;
+			font-size: 15px;
+			text-align: center;
+			padding: 0px;
+			margin: 0px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.caption:hover{
+			color: #56bedb;
+		}
+		.caption-long{
+			width: 360px;
+		}
+		#fire{
+			margin-top: 20px;
+			margin-left: 40px;
+			height: auto;
+			width: 370px;
+		}
+		#bio-lab1{
+			height: 210px;
+			width: 440px;
+		}
+		#story-map{
+			margin-left: auto;
+			margin-right: auto;
+			height: 210px;
+		}
+		#lower{
+			padding-left: 60px;
+		}
+		#chem-lab{
+			margin-top: 20px;
+			height: 150px;
+			width: 200px;
+		}
+		#html-proj{
+			height: 205px;
+		}
+		#bio-2{
+			height: 210px;
+			width: 200px;
+		}
+		#bio-lab2{
+			height: 210px;
+			width: 210px;
+		}
+		#bio-cap2{
+			color: #000000;
+			font-size: 15px;
+			text-align: center;
+			padding: 0px;
+			margin-top: 60px;
+			font-weight: 700;
+			width: 200px;
+		}
+		#bio-cap2:hover{
+			color: #56bedb;
+		}
+		#EE{
+			width: 340px;
+		}
+		#bargraph{
+			margin-top: 50px;
+		}
+		#DECABox{
+			margin-top: 35px;
+			height: 300px;
+			width: 300px;
+		}
+		#DECA{
+			width: 230px;
+		}
+		#DECA-cap{
+			width: 250px;
+			transform: translate(-35px,-63px);
+		}
+		#mathIA{
+			height: 360px;
+			width: 200px;
+		}
+		#math{
+			margin-left: 5px;
+		}
+		.scrolling_image{	
+			height: 350px;
+			overflow: hidden;
+		}
+		.scrolling_image img{
+			width: 100%;
+		}
+		#content2{
+			width: 980px;
+			background-color: white;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 20px 10px;
+		}
+		iframe {
+			width: 900px;
+			height: 500px;
+		}
+		.modal-content{
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.btn{
+			color: black;
+			padding: 15px 15px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>SAMYUKTA VAKKALANKA</h1>
+	</div>
+	<div id="menu">
+		<ul id="mainmenu">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="experiences.html">Experiences</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div id="upperrow" class="scrolling_image">
+			<img class="rellax" data-rellax-speed = "2" src="img/prj.jpeg" alt="Data Science">
+		</div>
+		<div id="content1">
+			<h2>My Projects</h2>
+			<div id="row1" class="rows">
+				<div id="left1">
+					<a id="fireP" href="#fire-popup">
+
+						<div class="thumbnail square">
+							<img src="img/BLFinal.gif" id="fire" alt="Fire image thumbnail">
+						</div>
+						<div class="caption caption-long" id="fire-cap"> 
+							QGIS project mapping wildfire perimeters and WUI development over time to determine the impact of building in urban fringe on the spread and frequency of wildfires
+						</div>
+					</a>
+
+					<div id="fire-popup">
+	        			<div class="close-fire-popup"> 
+	            			<button type="button" class="btn"> X </button>
+	       				 </div>
+	            
+		       			 <div class="modal-content">
+		        			<h2>The Effect of WUI Development on Wildfire</h2>
+		           			 <iframe src="https://samyuvakkalanka.github.io/FireProject/"></iframe>
+		        		</div>
+	   		 		</div>
+				</div>
+				<div class="right1">
+					<a id="bio1P" href="#bio-popup">
+						<div class="thumbnail horizontal">
+							<img src="img/deadzone.jpeg" id="bio-lab1" alt="Marine hypoxia effects map">
+						</div>
+						<div class="caption caption-long" id="bio-cap1">
+							Microbiology lab analyzing the presense of enzymes to facilitate alternative methods of cellular respiration in hypoxic conditions
+						</div>
+					</a>
+					<div id="bio-popup">
+	        			<div class="close-bio-popup"> 
+	            			<button type="button" class="btn"> X </button>
+	       				 </div>
+	            
+		       			 <div class="modal-content">
+		        			<h2>Enzyme Analysis of Novel Microbe Cultivations from Hypoxic Zones</h2>
+		           			 <iframe src="media/mCUREPoster.pdf"></iframe>
+		        		</div>
+	   		 		</div>
+					<a id="storyP" href="#story-popup">
+						<div class="thumbnail horizontal" id="lower">
+							<img src="img/map.jpeg" id="story-map" alt="Map of positive blood level tests">
+						</div>
+						<div class="caption caption-long" id="story-map-cap">
+							ArcGIS project examining high blood lead level occurences in children in comparison with race and median income data of counties in Pennsylvania and zip code polygons in Philadelphia
+						</div>
+					</a>
+					<div id="story-popup">
+	        			<div class="close-story-popup"> 
+	            			<button type="button" class="btn"> X </button>
+	       				 </div>
+	            
+		       			 <div class="modal-content">
+		        			<h2>Lead Contamination Disproportionately Impacting Black and African American Communities in Philadelphia</h2>
+		           			 <iframe src="https://storymaps.arcgis.com/stories/d313741e464646a6a0be48653bbed88f"></iframe>		        		
+		           		</div>
+	   		 		</div>
+				</div>
+			</div>
+			<div id="row2" class="rows">
+				<div id="left2">
+					<div id="top" class="rows">
+						<a id="chemP" href="#chem-popup">
+							<div class="thumbnail">
+								<img src="img/pipe.jpeg" id="chem-lab" alt="Eroded pipe releasing lead into water supplies">
+							</div>
+							<div class="caption" id="chem-cap"> 
+								Chemical research project presenting the Flint, Michigan water crisis
+							</div>
+						</a>
+						<div id="chem-popup">
+	        				<div class="close-chem-popup"> 
+	            				<button type="button" class="btn"> X </button>
+	       				 	</div>
+	            
+		       				<div class="modal-content">
+		        				<h2>Examining the Reactionary Causes and Subsequent Environmental Injustices of the Flint, Michigan Water Crisis </h2>
+		           				<iframe src="media/Chem.pdf"></iframe>
+		        			</div>
+	   		 			</div>
+						<a id="htmlP" href="#html-popup">
+							<div class="thumbnail">
+								<img src="img/html.jpeg" id="html-proj" alt="Image of example html code">
+							</div>
+							<div class="caption" id="html-cap">
+								HTML/CSS web development projects
+							</div>
+						</a>
+						<div id="html-popup">
+	        				<div class="close-html-popup"> 
+	            				<button type="button" class="btn"> X </button>
+	       				 	</div>
+	            
+		       				<div class="modal-content">
+		        				<h2>Collection of Projects Showing Progress of Web Development in HTML and CSS</h2>
+		           				<iframe src="https://uscwebdev.github.io/itp104-submissions-SamyuVakkalanka/"></iframe>
+		        			</div>
+	   		 			</div>
+						<a id="bio2P" href="#bio2-popup">
+							<div class="thumbnail" id="bio-2">
+								<img src="img/mCURE.jpeg" id="bio-lab2" alt="Oxygen consumption over time">
+							</div>
+						</a>
+						<div id="bio2-popup">
+	        				<div class="close-bio2-popup"> 
+	            				<button type="button" class="btn"> X </button>
+	       				 	</div>
+	            
+		       				<div class="modal-content">
+		        				<h2>Using Temperature's Affects on Specific Growth Rate of Novel Microbial Cultivations to Predict Oxygen Consumption Rates</h2>
+		           				<iframe src="media/BioPoster.pdf"></iframe>
+		           				<iframe src="media/mCURE_Report_Final.pdf"></iframe>
+		        			</div>
+	   		 			</div>
+					</div>
+					<div id="bottom" class="rows">
+						<a id="EEP" href="#ee-popup">
+							<div class="thumbnail" id="bargraph">
+								<img src="img/ALL.jpeg" id="EE" alt="Relapse rates of patients receiving different treatments">
+							</div>
+							<div class="caption caption-long" id="EE-cap">
+								Extended Essay Project examining the efficacy of allogeneic stem cell transplants vs chemotherapy as treatments of Acute Lymphoblastic Leukemia in children
+							</div>
+						</a>
+						<div id="ee-popup">
+	        				<div class="close-ee-popup"> 
+	            				<button type="button" class="btn"> X </button>
+	       				 	</div>
+	            
+		       				<div class="modal-content">
+		        				<h2>Comparing the efficacy of allogeneic stem cell transplants and chemotherapy when they are used to treat acute lymphoblastic leukemia in children</h2>
+		           				<iframe src="media/EE.pdf"></iframe>
+		        			</div>
+	   		 			</div>
+						<a id="decaP" href="#deca-popup">
+							<div id="DECABox">
+								<img src="img/lotus.jpeg" id="DECA" alt="Lotus logo">
+							</div>
+							<div class="caption" id="DECA-cap"> 
+								Marketing and business plan for self-started nonprofit organization aiming to raise funds to support female education in rural India 
+							</div>
+						</a>
+						<div id="deca-popup">
+	        				<div class="close-deca-popup"> 
+	            				<button type="button" class="btn"> X </button>
+	       				 	</div>
+		       				<div class="modal-content">
+		        				<h2>Business Growth Plan for Products and Marketing of Company to Raise Money to Support Girl's Education Rights in India</h2>
+		           				<iframe src="media/deca.pdf"></iframe>
+		        			</div>
+	   		 			</div>
+					</div>
+				</div>
+				<div class="right1">
+					<a id="bio3P" href="#bio3-popup">
+						<div id="bio-cap2"> 
+							Microbiology lab project using temperature's effects on specific growth rate to predict oxygen consumption rate on microbes from hypoxic regions
+						</div>
+					</a>
+					<div id="bio3-popup">
+	        			<div class="close-bio3-popup"> 
+	            			<button type="button" class="btn"> X </button>
+	       				 </div>
+	            
+		       			<div class="modal-content">
+		        			<h2>Using Temperature's Affects on Specific Growth Rate of Novel Microbial Cultivations to Predict Oxygen Consumption Rates</h2>
+		           			<iframe src="media/BioPoster.pdf"></iframe>
+		        		</div>
+	   		 		</div>
+					<a id="mathP" href="#math-popup">
+						<div id="math">
+							<div class="thumbnail vertical">
+								<img src="img/neuron.jpeg" id="mathIA" alt="Neuron voltage change over time">
+							</div>
+							<div class="caption" id="math-cap">
+								Mathematical research project deriving an equation for the change in voltage in a neuron as it fires
+							</div>
+						</div>
+					</a>
+					<div id="math-popup">
+	        			<div class="close-math-popup"> 
+	            			<button type="button" class="btn"> X </button>
+	       				 </div>
+	            
+		       			 <div class="modal-content">
+		        			<h2>Calculating Equation for the Derivative of Voltage as a Neuron Fires Based on Sodium, Potassium, and Leakage</h2>
+		           			<iframe src="media/mathIA.pdf"></iframe>
+		        		</div>
+	   		 		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<br>
+		<p>University of Southern California © 2022</p>
+	</div>
+
+	<script src="animatedModal.js-master/js/jquery.min.js"></script>
+
+  	<script src="animatedModal.js-master/js/animatedModal.js"></script>
+
+  	<script>
+  		$("#fireP").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#bio1P").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#storyP").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#chemP").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#htmlP").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#bio2P").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#EEP").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#decaP").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#bio3P").animatedModal({
+            color:'#FFFFFF',
+  		});
+  		$("#mathP").animatedModal({
+            color:'#FFFFFF',
+  		});
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+
+	<script>
+		var rellax = new Rellax('.rellax');
+	</script>
+</body>
+</html>
