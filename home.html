@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content ="Resume, Home Page, Personal Page, Data Science, Samyu Vakkalanka, Samyukta Vakkalanka">
+	<meta name = "description" content = "Samyu Vakkalanka personal page, resume, and project portfolio for final project in web development course at USC.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Samyukta Vakkalanka | Home</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+	<style>
+		.scrolling_image{	
+			height: 450px;
+			overflow: hidden;
+		}
+		.scrolling_image img{
+			width: 100%;
+		}
+		#image img{
+			height: 300px;
+			padding: 20px;
+		}
+		.subheader{
+			text-align: center;
+			font-size: 30px;
+		}
+		.info_block{
+			margin-right: auto;
+			margin-left: auto;
+			width: 800px;
+			display: flex;
+		}
+		h2{
+			font-weight: normal;
+			margin: 20px;
+		}
+		#image{
+			width: 290px;
+		}
+		.paragraph{
+			width: 530px;
+		}
+		#info p{
+			font-size: 23px;
+		}
+		#description p{
+			margin-top: 0px;
+			margin-left: 20px;
+			font-size: 20px;
+		}
+		#pic img{
+			margin-top: 10px;
+			height: 220px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>SAMYUKTA VAKKALANKA</h1>
+	</div>
+	<div id="menu">
+		<ul id="mainmenu">
+			<li><a href="home.html">Home</a> </li>
+			<li><a href="experiences.html">Experiences</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div id="row1" class="scrolling_image">
+			<img class="rellax" data-rellax-speed = "2" src="img/background.jpg" alt="Data Science">
+		</div>
+		<div id="row2" class="subheader">
+			<h2>About Me</h2>
+		</div>
+		<div id="row3" class="info_block">
+			<div id="image">
+				<img src="img/me.jpg" alt="Me in a field">
+			</div>
+			<div id="info" class="paragraph">
+				<p>Hello! My name is Samyukta Vakkalanka and I'm from Denver, Colorado. I am currently a sophomore at the University of Southern California pursuing a double major in Applied and Computational Math through the Dornsife College of Letters, Arts, and Sciences and Data Science through the Viterbi School of Engineering. I am passionate about data science and the way that data can be used to learn more about our world.</p>
+			</div>
+		</div>
+		<div id="row4" class="scrolling_image">
+			<img class="rellax" data-rellax-speed = "2" src="img/NN.jpeg" alt="Data Science">
+		</div>
+		<div id="row5" class="subheader">
+			<h2>Background</h2>
+		</div>
+		<div id="row6" class="info_block">
+			<div id="pic">
+				<img src="img/viterbi.jpeg" alt="USC Viterbi School of Engineering">
+			</div>
+			<div id="description" class="paragraph">
+				<p>My background in technology, the sciences, and writing give me the tools I need to accurately collect, analyze, and present data in an effective way. I have completed data analytics projects in various fields and look forward to seeing the many applications of these skills. Explore my page to learn more!</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<br>
+		<p>University of Southern California © 2022</p>
+	</div>
+	<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+
+	<script>
+		var rellax = new Rellax('.rellax');
+	</script>
+</body>
+</html>
